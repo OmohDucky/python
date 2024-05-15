@@ -15,7 +15,7 @@ def calculator():
   elif x == '/':
     c = a / b
     print (c)
-  else
+  else:
     print ('Invalid operator')
 
 calculator()
