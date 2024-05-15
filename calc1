@@ -1,0 +1,21 @@
+def calculator():
+  a = int(input( 'Enter first number :'))
+  x = input('operator')
+  b = int(input('Enter second number :'))
+
+  if x == '+':
+    c = a + b
+    print(c)
+  elif x == '-':
+    c = a - b
+    print(c)
+  elif x == '*':
+    c = a * b
+    print(c)
+  elif x == '/':
+    c = a / b
+    print (c)
+  else
+    print ('Invalid operator')
+
+calculator()
